@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Work Sans','Open Sans', sans-serif;
+}
+
+/* Utility classes */
+.btn-primary{
+    background: #1db954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background: #1ed760;
+    transition: 0.4s ease;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-container ul li {
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.navbar-container ul li:hover{
+    color: #1db954;
+    transition: all 300ms ease;
+}
+
+.navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+
+/* Showcase */
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(./assets/img/girl.jpg);
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.showcase-container h2{
+    font-size: 5rem;
+}
+
+.showcase-container p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+
+footer{
+    background: #191414;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    margin: 0 40px;
+    list-style: none;
+}
+
+.footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.footer-menu-item{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.footer-menu-item:hover{
+    color: #1db954;
+}
+
+/* Footer socials */
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.socials i:hover{
+    color: #1db954;
+}
+
+/* Footer info */
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    color: #919496;
+    font-size: 0.8rem;
+    padding: 50px 0;
+}
+
+.footer-info-items{
+    display: flex;
+    list-style: none;
+}
+
+.footer-info-item{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.footer-info-item:hover{
+    color: #1db954;
+}
+
+.country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.country p:hover{
+    color: #1db954;
+}
+
+.brazil-flag{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
